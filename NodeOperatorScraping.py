@@ -1,3 +1,17 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import json
+
+# Initialize the Chrome WebDriver
+driver = webdriver.Chrome()
+
+# Replace 'url' with the actual URL of the website
+url = 'https://rocketscan.io/nodes'  # Replace with the website URL you are scraping
+
+driver.get(url)
+
 try:
     # Wait for the presence of the button using its CSS selector
     wait = WebDriverWait(driver, 10)
@@ -37,3 +51,4 @@ except Exception as e:
 
 # Close the browser when done.
 driver.quit()
+
