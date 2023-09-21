@@ -4,7 +4,7 @@ import requests
 import json
 
 # Define the directory path where CSV files will be stored
-output_directory = r"C:/{{myPath}}"
+output_directory = r"C:/{{CSVOutputDestinationPath}}"
 
 # Define the list of URLs and headers
 endpoints = [
