@@ -4,7 +4,7 @@ This repository contains a library of cURL API scripts to access rated.network's
 ### Library Scripts
 
 - [Single Validator Performance Pull](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/SingleValidatorPerformance) (**AVAILABLE**)
-- [Node Operator Address Scraping - rocketscan.io](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/NodeOperatorScraping.py) (**Available**)
+- [Node Operator Address Scraping](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/NodeOperatorScraping.py) (**Available**)
 - Operator-level Metadata (**WIP**)
 - Operator-level Summary (**WIP**)
 - Network operator-level effectiveness percentile ranks (**WIP**)
