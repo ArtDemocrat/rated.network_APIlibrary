@@ -3,7 +3,7 @@ This repository contains a library of cURL API scripts to access rated.network's
 
 ### Library Scripts
 
-- Single Validator Performance (**AVAILABLE**)
+- [Single Validator Performance](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/SingleValidatorPerformance) (**AVAILABLE**)
 - Operator-level Metadata (**WIP**)
 - Operator-level Summary (**WIP**)
 - Network operator-level effectiveness percentile ranks (**WIP**)
