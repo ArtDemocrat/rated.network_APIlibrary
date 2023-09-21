@@ -1,7 +1,7 @@
-# rated.network_APIlibrary
+# Rated.network API Access Library
 This repository contains a library of cURL API scripts to access rated.network's validator-, operator-, and entity-level staking performance metrics. All scripts are in the form of Python commands which contain cURL requests that produces a JSON object that saved as CSVs.
 
-### The scipts contained in this library are:
+### Library Scripts
 
 - Single Validator Performance (**AVAILABLE**)
 - Operator-level Metadata (**WIP**)
