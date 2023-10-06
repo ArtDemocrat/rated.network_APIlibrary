@@ -1,4 +1,4 @@
-# Rated.network API Access Library
+# Rated.network Performance Metrics Access Library
 This repository contains a library of python scripts to:
 1) Scrape the https://rocketscan.io/nodes to download all 3000+ Rocketpool node operator addresses
 2) Convert all ENS domains to hex addresses
