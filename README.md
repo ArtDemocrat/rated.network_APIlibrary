@@ -5,7 +5,7 @@ This repository contains a library of cURL API scripts to access rated.network's
 
 - [Single Validator Performance Pull](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/SingleValidatorPerformance.py) (**AVAILABLE**)
 - [Rocketpool Node Operator Address Scraping](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/RPNodeOperatorScraping.py) (**AVAILABLE**)
-- [Rocketpool Node Operator ENS-to-Hex Mapping & Conversion] (https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/moralis_ENStoHEX.py) (Required as a module for the scraping code "RPNodeOperatorScraping.py" above) (**AVAILABLE**)
+- [Rocketpool Node Operator ENS-to-Hex Mapping & Conversion](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/moralis_ENStoHEX.py) (Required as a module for the scraping code "RPNodeOperatorScraping.py" above) (**AVAILABLE**)
 - Operator-level Metadata (**WIP**)
 - Operator-level Summary (**WIP**)
 - Network operator-level effectiveness percentile ranks (**WIP**)
