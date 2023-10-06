@@ -1,11 +1,16 @@
 # Rated.network API Access Library
-This repository contains a library of cURL API scripts to access rated.network's validator-, operator-, and entity-level staking performance metrics. All scripts are in the form of Python commands which contain cURL requests that produces a JSON object that saved as CSVs.
+This repository contains a library of python scripts to:
+1) Scrape the https://rocketscan.io/nodes to download all 3000+ Rocketpool node operator addresses
+2) Convert all ENS domains to hex addresses
+3) Run all of Rocketpool's node operator set through rated.network's validator staking performance metrics API
 
-### Library Scripts
+Current Status: **Cannot run the Rocketpool node operator addresses through rated.network's API, since the cURL endpoint requires validator indexes or public keys, while the data scraped from rocketscan.io returns node operator addresses.**
 
-- [Single Validator Performance Pull](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/SingleValidatorPerformance.py) (**AVAILABLE**)
+### Library Scripts for the steps above
+
 - [Rocketpool Node Operator Address Scraping](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/RPNodeOperatorScraping.py) (**AVAILABLE**)
 - [Rocketpool Node Operator ENS-to-Hex Mapping & Conversion](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/moralis_ENStoHEX.py) (Required as a module for the scraping code "RPNodeOperatorScraping.py" above) (**AVAILABLE**)
+- [Single Validator Performance Pull](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/SingleValidatorPerformance.py) (**AVAILABLE**)
 - Operator-level Metadata (**WIP**)
 - Operator-level Summary (**WIP**)
 - Network operator-level effectiveness percentile ranks (**WIP**)
