@@ -9,7 +9,7 @@ Current Status: **Cannot run the Rocketpool node operator addresses through rate
 ### Library Scripts for the steps above
 
 - [Rocketpool Node Operator Address Scraping](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/RPNodeOperatorScraping.py) (**AVAILABLE**)
-- [Rocketpool Node Operator ENS-to-Hex Mapping & Conversion](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/moralis_ENStoHEX.py) (Required as a module for the scraping code "RPNodeOperatorScraping.py" above) (**AVAILABLE**)
+- [Rocketpool Node Operator ENS-to-Hex Mapping & Conversion](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/moralis_ENStoHEX.py) - required as a module for the scraping code "RPNodeOperatorScraping.py" above (**AVAILABLE**)
 - [Single Validator Performance Pull](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/SingleValidatorPerformance.py) (**AVAILABLE**)
 - Operator-level Metadata (**WIP**)
 - Operator-level Summary (**WIP**)
