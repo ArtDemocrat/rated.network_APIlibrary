@@ -11,6 +11,7 @@ Current Status: **Cannot run the Rocketpool node operator addresses through rate
 - [Rocketpool Node Operator Address Scraping](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/RPNodeOperatorScraping.py) (**AVAILABLE**)
 - [Rocketpool Node Operator ENS-to-Hex Mapping & Conversion](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/moralis_ENStoHEX.py) - required as a module for the scraping code "RPNodeOperatorScraping.py" above (**AVAILABLE**)
 - [Single Validator Performance Pull](https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/SingleValidatorPerformance.py) (**AVAILABLE**)
+- [rocketscan.io direct cURL (pulls RP adress, pubkey, index, status)] (https://github.com/ArtDemocrat/rated.network_APIlibrary/blob/main/rocketscan_allData) (**Available**)
 - Operator-level Metadata (**WIP**)
 - Operator-level Summary (**WIP**)
 - Network operator-level effectiveness percentile ranks (**WIP**)
