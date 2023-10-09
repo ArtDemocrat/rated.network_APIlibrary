@@ -1,0 +1,1 @@
+curl "https://rocketscan.io/api/mainnet/minipools/all" | jq.exe -r ".[] | [.address, .nodeAddress, .pubkey, .validator.index, .validator.status] | @csv" > C:\mypath\myfile.csv
