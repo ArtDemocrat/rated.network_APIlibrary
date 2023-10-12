@@ -1,4 +1,4 @@
-
+# downloads node operator addresses (i.e. deposit addresses) and number of minipools from rocketscan.io/nodes, deduplicating the dataset, and ranking large-to-small based on fifth_element (# of minipools)
 # run jq.exe -r ".[:50] | .[] | [.address, to show only the first 50 records
 
 import os
