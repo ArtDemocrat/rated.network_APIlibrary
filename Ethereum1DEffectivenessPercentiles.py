@@ -1,5 +1,6 @@
-#Shows effectiveness percentiles ranking for the last 1D period on a depositAddress level
-#Change filter to poolShare in order to get staking pool-groupped data
+# Shows effectiveness percentiles ranking for the last 1D period on a depositAddress level
+# Change filter to 1d, 7d, 30d or All-time to get different timeframes of data
+# Change filter to poolShare in order to get staking pool-groupped data
 
 import subprocess
 import json
