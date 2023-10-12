@@ -1,5 +1,6 @@
 # hits rocketscan.io API to download and dedupe all node operator addresses (i.e. deposit addresses)
 # passes the downloaded data to the rated.network /operators/ endpoint to get node operator-level performance data
+# use jq.exe -r ".[:50] | .[] | [.address, in the rocketscan.io API call to get only 50 results
 
 import os
 import csv
